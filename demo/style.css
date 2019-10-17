@@ -151,6 +151,7 @@ select option {
 #streamSelect {
   width: calc(100% - 4px);
   margin-left: 3px;
+    background-color:#2d2db4;
 }
 
 #streamURL {
