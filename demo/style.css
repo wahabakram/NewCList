@@ -119,7 +119,8 @@ select option {
   text-align: center;
   font-size: 10pt;
   font-weight: bolder;
-  background-color: rgb(181, 222, 255)
+  background-color: rgb(181, 222, 255);
+  overflow:hidden;
 }
 #toggleButtons button:hover{
   background-color: #007bff;
