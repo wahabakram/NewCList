@@ -10,10 +10,6 @@ select {
   padding: 5px 0;
 }
 
-select option {
-  font-size: 11px;
-}
-
 .innerControls input {
   font-weight: normal;
   float: right;
@@ -21,8 +17,8 @@ select option {
 
 #controls {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-direction: row;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto 20px auto;
   overflow: hidden;
