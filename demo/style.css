@@ -104,12 +104,11 @@ select {
 }
 
 #toggleButtons button {
-  width: 19%;
-  display : inline-block;
   text-align: center;
   font-weight: bolder;
   background-color: rgb(181, 222, 255);
   overflow:hidden;
+  margin: 2px 0;
 }
 #toggleButtons button:hover{
   background-color: #007bff;
