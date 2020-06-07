@@ -23,7 +23,6 @@ select {
   margin: 0 auto 20px auto;
   overflow: hidden;
   color:black;
-  box-shadow: 1px 1px 6px 1px #61b3ff54;
 }
 
 .demo-controls-wrapper {
@@ -91,7 +90,6 @@ select {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  box-shadow: 1px 1px 6px 1px#007bff;
 }
 
 .center {
