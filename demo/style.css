@@ -1,9 +1,7 @@
 header {
   text-align: center;
 }
-body{
-  background-image: url("background image.jpg");
-}
+
 
 th, td {
   padding: 15px;
@@ -11,16 +9,11 @@ th, td {
 
 select {
   padding: 2px 15px;
-  background-color: rgb(64, 64, 65);
+  color: rgb(64, 64, 65);
   font-weight: 600;
   padding: 5px 0;
 }
-h4{
-  color:#2d2db4;
-}
-p{
-  color:#fff;
-}
+
 select option {
   font-size: 11px;
 }
@@ -36,10 +29,9 @@ select option {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto 20px auto;
-  border: 1px solid #606060;
   overflow: hidden;
-  color:#fff;
-  box-shadow: 1px 1px 6px 1px #2e2e9b;
+  color:black;
+  box-shadow: 1px 1px 6px 1px #61b3ff54;
 }
 
 .demo-controls-wrapper {
@@ -52,9 +44,9 @@ select option {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  border-top: solid 1px #2e2e9b;
+  border-top: solid 1px #007bff;
   height: 256px;
-  color: #2e2e9b;
+  color: #007bff;
 }
 
 .config-editor-container {
@@ -109,7 +101,7 @@ select option {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  box-shadow: 1px 1px 6px 1px #2e2e9b;
+  box-shadow: 1px 1px 6px 1px#007bff;
 }
 
 .center {
@@ -130,7 +122,7 @@ select option {
   background-color: rgb(181, 222, 255)
 }
 #toggleButtons button:hover{
-  background-color: #2d2db4;
+  background-color: #007bff;
   color: white;
 }
 
@@ -146,12 +138,14 @@ select option {
   overflow: auto;
 }
 
-
+#streamURL {
+  color: black;
+}
 #streamURL,
 #streamSelect {
   width: calc(100% - 4px);
   margin-left: 3px;
-    background-color:#2d2db4;
+
 }
 
 #streamURL {
